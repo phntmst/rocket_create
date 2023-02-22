@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+
+:root {
+    
+  --house-font: 'Gemunu Libre', sans-serif;
+  --house-size: calc(0.8rem + 0.25vmin);
+  --background-image: url(https://images.unsplash.com/photo-1472076638602-b1f8b1ac0b4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2352&q=80);
+  
+  --origin-hex: #f6faf0;
+  --origin-80-rgba: rgba(246, 250, 240, 0.8);
+  --origin-80-rgba: rgba(246, 250, 240, 0.4);
+  --origin-80-rgba: rgba(246, 250, 240, 0.2);
+  
+  --light-hex: #e9f5d5;
+  --light-80-rgba: rgba(233, 245, 213, 0.8);
+  --light-40-rgba: rgba(233, 245, 213, 0.4);
+  --light-20-rgba: rgba(233, 245, 213, 0.2);
+  
+  --dark-hex: #0c0f07;
+  --dark-80-rgba: rgba(12, 15, 7, 0.8);
+  --dark-40-rgba: rgba(12, 15, 7, 0.4);
+  --dark-20-rgba: rgba(12, 15, 7, 0.2);
+  
+  --primary-hex: #32a852;
+  --primary-80-rgba: rgba(50, 168, 82, 0.8);
+  --primary-40-rgba: rgba(50, 168, 82, 0.4);
+  --primary-20-rgba: rgba(50, 168, 82, 0.2);
+  
+  --secondary-hex: #F5B556;
+  --secondary-80-rgba: rgba(245, 181, 86, 0.8);
+  --secondary-40-rgba: rgba(245, 181, 86, 0.4);
+  --secondary-20-rgba: rgba(245, 181, 86, 0.2);
+  
+  --tertiary-hex: #FED066;
+  --tertiary-80-rgba: rgba(254, 208, 102, 0.8);
+  --tertiary-30-rgba: rgba(254, 208, 102, 0.4);
+  --tertiary-20-rgba: rgba(254, 208, 102, 0.2);
+  
+  --success-hex: #04AA6D;
+  --error-hex: #AA0430;
+  --alert-hex: #AA9904;
+  --info-hex: #0475AA;
+  
+}
