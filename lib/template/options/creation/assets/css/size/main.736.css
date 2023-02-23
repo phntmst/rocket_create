@@ -1,0 +1,166 @@
+/* Basic */
+
+html, body, #wrapper {
+		padding-left: 0;
+	}
+	
+/* Background Image */
+
+	#menu_header_img {
+        background-position: center top;
+	}
+
+/* Image */
+
+	.image.left {
+		margin: 0 1.5rem 1rem 0;
+	}
+
+	.image.right {
+		margin: 0 0 1rem 1.5rem;
+	}
+
+	.image.main {
+		height: 12rem;
+	}
+
+/* Buttons */
+
+button, .btn, .button, .alert, .error, .success, .info {
+    padding: 8px !important;
+}
+
+.input-form {
+    max-width: calc(100% + 2rem);
+    padding: 0;
+}
+
+.switch {
+    height: 24px;
+}
+
+
+/* Header */
+
+	#menu_header {
+		width: 18rem;
+		left: 0;
+	}
+
+	#menu_header > header {
+		padding: 2rem;
+		padding-top: calc(44px + 2rem);
+	}
+
+	#menu_header > header .avatar {
+		margin: 0 auto 1.5rem auto;
+	}
+
+	#menu_header > header p {
+		margin: 1rem 0 0 0;
+	}
+
+	#menu_header > footer {
+		padding: 1.5rem;
+	}
+	
+/* Titles */
+
+    header#first {
+        width: calc(100% + 2rem) !important;
+    }
+
+/* Footer */
+	
+	#footer {
+	    margin: auto;
+	    max-width: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+	}
+	
+	#last {
+        max-width: calc(100% - 2rem);
+        width: calc(100% - 2rem);
+        margin: 2rem auto 2rem;
+        padding: 1.5rem 1rem 2rem 1rem;
+	}
+	
+	#last > .input-form {
+	    padding: 0 0 2rem 0;
+	}
+
+		/* Header */
+
+			#menu_header {
+				width: 17em;
+				-moz-transform: translateX(17em);
+				-webkit-transform: translateX(17em);
+				-ms-transform: translateX(17em);
+				transform: translateX(17em);
+				left: 0;
+			}
+
+				#menu_header > header {
+					padding: 2em;
+				}
+
+					#menu_header > header .avatar {
+						margin: 0 auto 1.5em auto;
+					}
+
+					#menu_header > header h1 {
+						font-size: 1.5em;
+					}
+
+					#menu_header > header p {
+						margin: 1em 0 0 0;
+					}
+
+				#menu_header > footer {
+					padding: 1.5em;
+				}
+
+		/* Main */
+
+			#main > section > .container {
+				padding: 2em 0 0 0;
+			}
+
+		/* Footer */
+
+			#footer {
+				text-align: center;
+			}
+
+				#footer .copyright li {
+					border-left: 0;
+					display: block;
+					line-height: 1.75em;
+					margin: 0.75em 0 0 0;
+					padding-left: 0;
+				}
+
+					#footer .copyright li:first-child {
+						margin-top: 0;
+					}
+
+		/* Header Panel */
+
+			#titleBar .toggle {
+				height: 4em;
+				width: 6em;
+			}
+
+				#titleBar .toggle:before {
+					font-size: 14px;
+					width: 44px;
+				}
+
+			body.header-visible #wrapper, body.header-visible #titleBar {
+				-moz-transform: translateX(-17em);
+				-webkit-transform: translateX(-17em);
+				-ms-transform: translateX(-17em);
+				transform: translateX(-17em);
+			}

@@ -1,0 +1,26 @@
+/* Basic */
+
+html, body, #wrapper {
+		font-size: 90%;
+	}
+
+/* Header */
+
+	#menu_header {
+		width: 20rem;
+	}
+
+/* Wrapper */
+
+	#wrapper {
+		padding-left: 20rem;
+	}
+
+/* Row */
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		align-items: stretch;
+	}
